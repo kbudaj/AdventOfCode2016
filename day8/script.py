@@ -6,8 +6,6 @@ class Display:
         self.data = file
 
     def createRectangle(self, x, y):
-        x = int(x)
-        y = int(y)
         for i in range(y):
             for j in range(x):
                 self.array[i][j] = 1
