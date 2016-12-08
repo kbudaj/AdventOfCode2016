@@ -42,7 +42,6 @@ def getBAB(ABA):
 
 def supportSSL(ip):
     ABAs = set()
-    BABs = set()
     hypernets, supernets = splitIP(ip)
 
     for part in supernets:    
